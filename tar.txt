@@ -1,0 +1,16 @@
+﻿Range scan registration has attracted broad interests due to its wide
+applications in robot mapping [1–3], 3D model reconstruction [4, 5],
+object recognition [6, 7] and etc. The task of registration is to calculate
+the optimal transformation for two or more range scans so as
+to transfer them into one coordinate system and recover the original
+scene of a 3D object. Based on the number of scans to be registered,
+this problem can be classified into two categories: pair-wise registration
+and multi-view registration. The most popular method for
+pair-wise registration is the iterative closest point (ICP) algorithm
+proposed by Besl et al. [8], which iteratively builds up correspondences
+and calculates the optimal transformation by minimizing the
+residual error. Although the ICP algorithm has good performance in
+efficiency, it is a local convergent approach. Besides, this approach
+can not be applied to scan pairs that contain large non-overlapping
+areas. Therefore, a lot of ICP variants were proposed for pair-wise
+registration.
